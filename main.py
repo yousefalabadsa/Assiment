@@ -70,11 +70,11 @@ while conter < 5:
     numbers.append(data)
     conter += 1
 
-op3 = input("Extra choices:"
+min_max = input("Extra choices:"
             "1_max"
             "2_min: ")
 
-if op3 == "1":
+if min_max == "1":
     print(max(numbers))
 else:
     print(min(numbers))
