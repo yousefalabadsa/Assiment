@@ -17,7 +17,7 @@ ball.shapesize(stretch_len=1, stretch_wid=1)
 ball.goto(x=0, y=0)  
 ball.penup()  
 ball_dx, ball_dy = 1, 1
-ball_speed = .12
+ball_speed = .12 # if you want the boll to be faster make it .5 
 
 # center line
 center_line = turtle.Turtle()
